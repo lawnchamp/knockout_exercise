@@ -1,0 +1,132 @@
+
+/*General*/
+
+h1,
+h2,
+h3,
+p,
+td,
+th {
+  font-family: 'Roboto', sans-serif;
+  color: #626A70;
+
+}
+
+th {
+  font-size: 18px;
+}
+
+td:last {
+  text-align: center;
+}
+
+body {
+}
+
+/*Header*/
+
+#banner {
+  /*background-color: #3C4965;*/
+  background-image: url('photos/jelly.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#banner h1 {
+  color: #fff;
+  font-size: 5em;
+  padding: 35px;
+  margin: 0;
+}
+
+#banner img {
+  padding: 35px;
+  margin-bottom: 10vh;
+  width: 30%;
+}
+
+.contact-open {
+  margin: 0;
+  transition: all .5s ease-out 0.1s;
+}
+
+.contact-close {
+  margin-top: -225px;
+}
+
+.glyphicon-menu-down {
+  font-size: 3em;
+}
+
+/*Table*/
+
+.table,
+form {
+  margin-top: 15px;
+}
+
+/*Form*/
+
+.btn:focus,
+.btn:hover {
+  color: #fff;
+}
+
+.btn-add {
+  background-color: #e05b20; 
+  border-radius: 3px;
+  color: #fff;
+  width: 40%;
+}
+
+.glyphicon {
+  padding-right: 15px;
+}
+
+.show-button:hover{
+  border-color: #e05b20; /* make this whatever you want */
+  color: #e05b20;
+}
+
+.th:hover span{color:#bc2328}.font-list
+
+
+.contact{
+  background-color: rgba(224, 91, 32, .8);
+  width: 300px;
+  padding: 10px 20px;
+
+}
+
+.contact p,
+.contact a,
+.contact a:hover {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  display: block;
+  text-decoration: none;
+
+}
+
+.contact a {
+  padding-left: 15px;
+}
+
+@media (max-width: 768px) {
+  
+  #contact-bar {
+    display: none;
+  }
+
+  #banner img {
+    width: 70%;
+  }
+
+  .contact-close {
+    margin-top: -345px;
+  }
+}
+
+
+
